@@ -23,8 +23,8 @@ const App = () => {
         setCoordinates({ lat, lng });
     }
 
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition(({ coords: { latitude, longitude } }) => {
+    useEffect(async ()  => {
+       await navigator.geolocation.getCurrentPosition(({ coords: { latitude, longitude } }) => {
             setCoordinates({ lat: latitude, lng: longitude })
         });
     }, []);

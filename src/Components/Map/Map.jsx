@@ -1,7 +1,6 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react'
 import { Paper, Rating, Typography, useMediaQuery } from '@mui/material'
-import LocationOnIcon from '@mui/icons-material/LocationOn'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 
