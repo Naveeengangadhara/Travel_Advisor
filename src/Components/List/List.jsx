@@ -59,7 +59,7 @@ function List({ places, childClicked, isLoading, type, setType, rating, setRatin
                 <Grid2 ref={elRefs[i]} key={i} xs={12}>
                   <PlaceDetails
                     place={place}
-                    selected={Number(childClicked === i)}
+                    selected={Number(childClicked) === i}
                     refProp={elRefs[i]}
                   />
                 </Grid2>
