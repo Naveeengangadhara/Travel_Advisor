@@ -19,13 +19,13 @@ Step-by-step instructions on how to get the project running locally.
 git clone https://github.com/Naveeengangadhara/Travel_Advisor.git
 cd Travel_Advisor
 npm install
-
+```
 
 
 Usage
 Instructions and examples on how to use the project.
 
-bash
+```bash
 
 # Example usage
 npm start
@@ -33,6 +33,7 @@ Features
 * Feature 1
 * Feature 2
 * Feature 3
+```
 Contributing
 Guidelines for contributing to the project.
 1. Fork the repository
